@@ -10,11 +10,10 @@
   border-right: 1px solid #dee2e6;
   transition: transform 0.3s ease;
   position: fixed;
-  top: 0;
+  top: 56px;
   bottom: 0;
   left: 0;
-  z-index: 1030;
-  padding-top: 56px;
+  z-index: 1020;
   
   &.closed {
     transform: translateX(-250px);
