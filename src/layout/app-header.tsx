@@ -13,7 +13,7 @@ const AppHeader: FC<AppHeaderProps> = ({ toggleSidePanel }) => {
   return <Navbar expand="lg" className="app-header fixed-top">
     <Container>
       <button 
-        className="navbar-toggler me-2" 
+        className="me-2 burger-button" 
         onClick={toggleSidePanel}
       >
         <FaBars size={20} />
