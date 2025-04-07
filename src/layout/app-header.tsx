@@ -2,6 +2,7 @@
 import { FC } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 import './app-header.scss';
 
 interface AppHeaderProps {
@@ -15,7 +16,7 @@ const AppHeader: FC<AppHeaderProps> = ({ toggleSidePanel }) => {
         className="navbar-toggler me-2" 
         onClick={toggleSidePanel}
       >
-        <span className="navbar-toggler-icon"></span>
+        <FaBars size={20} />
       </button>
       <Navbar.Brand as={Link} to="/" className="header-title">
         Expense tracking app
