@@ -11,7 +11,6 @@ interface AppHeaderProps {
 
 const AppHeader: FC<AppHeaderProps> = ({ toggleSidePanel }) => {
   return <Navbar expand="lg" className="app-header fixed-top">
-    <Container>
       <button 
         className="me-2 burger-button" 
         onClick={toggleSidePanel}
@@ -21,7 +20,6 @@ const AppHeader: FC<AppHeaderProps> = ({ toggleSidePanel }) => {
       <Navbar.Brand as={Link} to="/" className="header-title">
         Expense tracking app
       </Navbar.Brand>
-    </Container>
   </Navbar>
 }
 
