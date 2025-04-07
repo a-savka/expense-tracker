@@ -1,9 +1,15 @@
-import './App.css'
 
-export default function App() {
+import { RouterProvider } from 'react-router-dom'
+import './App.css'
+import { appRouter } from './app-router'
+
+function App() {
+
   return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit 🌀
-    </main>
+    <>
+      <RouterProvider router={ appRouter } />
+    </>
   )
 }
+
+export default App
