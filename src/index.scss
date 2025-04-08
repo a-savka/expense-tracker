@@ -1,18 +1,9 @@
 :root {
-  --bg-grayblue-light: radial-gradient(66.67% 66.67% at 50% 33.33%, #a7afb2 0%, #b0b9b8 100%);
-  --bg-grayblue-dark: radial-gradient(66.67% 66.67% at 50% 33.33%, #858d90 0%, #7e8d8e 100%);
-  --bg-green-light: radial-gradient(66.67% 66.67% at 50% 33.33%, #047855 0%, #078e6d 100%);
-  --bg-green-dark: radial-gradient(66.67% 66.67% at 50% 33.33%, #01593f 0%, #015641 100%);
-  --bg-blue-light: radial-gradient(66.67% 66.67% at 50% 33.33%, #00afdb 0%, #00d3de 100%);
-  --bg-blue-dark: radial-gradient(66.67% 66.67% at 50% 33.33%, #006983 0%, #007893 100%);
-  --bg-violet-light: radial-gradient(66.67% 66.67% at 50% 33.33%, #7e31e3 0%, #9b3ff2 100%);
-  --bg-violet-dark: radial-gradient(66.67% 66.67% at 50% 33.33%, #5900ae 0%, #662e9b 100%);
-  --bg-yellow-light: radial-gradient(66.67% 66.67% at 50% 33.33%, #ef9e33 0%, #f9c80e 100%);
-  --bg-yellow-dark: radial-gradient(66.67% 66.67% at 50% 33.33%, #de7f03 0%, #f29d00 100%);
-  --bg-orange-light: radial-gradient(66.67% 66.67% at 50% 33.33%, #e1571a 0%, #f86624 100%);
-  --bg-orange-dark: radial-gradient(66.67% 66.67% at 50% 33.33%, #ae3d09 0%, #b23700 100%);
-  --bg-red-light: radial-gradient(66.67% 66.67% at 50% 33.33%, #e11a1a 0%, #f82424 100%);
-  --bg-red-dark: radial-gradient(66.67% 66.67% at 50% 33.33%, #870000 0%, #af0000 100%);
+  --bg-normal: radial-gradient(66.67% 66.67% at 50% 33.33%, #858d90 0%, #7e8d8e 100%);
+  --bg-success: radial-gradient(66.67% 66.67% at 50% 33.33%, #047855 0%, #078e6d 100%);
+  --bg-primary: radial-gradient(66.67% 66.67% at 50% 33.33%, #00afdb 0%, #00d3de 100%);
+  --bg-warning: radial-gradient(66.67% 66.67% at 50% 33.33%, #ef9e33 0%, #f9c80e 100%);
+  --bg-danger: radial-gradient(66.67% 66.67% at 50% 33.33%, #e11a1a 0%, #f82424 100%);
   }
 
 .app-page {
